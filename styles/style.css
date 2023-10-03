@@ -277,6 +277,7 @@ input {
   gap: 30px;
   flex-direction: column;
   overflow: auto;
+  position: relative;
 }
 
 .content__list-item:not(:last-child) {
