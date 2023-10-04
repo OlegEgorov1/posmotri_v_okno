@@ -265,15 +265,18 @@ ol {
     display: flex;
     height: 298px;
     max-width: 100%;
-    gap: 30px;
     flex-direction: column;
     overflow: auto;
     position: relative;
 }
 
-.content__list-item:not(:last-child) {
+.content__list-item {
     height: 104px;
     padding: 2px;
+}
+
+.content__list-item:not(:last-child) {
+    margin-block-end: 30px;
 }
 
 .content__card-link {
